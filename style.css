@@ -1,0 +1,90 @@
+#inch {
+    display: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    width: 70px;
+    color: #34495e;
+}
+
+input, select {
+    padding: 8px 12px;
+    border: 2px solid #dfe6e9;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #74b9ff;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00a884;
+}
+
+#output {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+.underweight {
+    background-color: #74b9ff;  
+    color: #2c3e50;
+}
+
+.normal {
+    background-color: #00b894;  
+    color: #2c3e50;
+}
+
+.overweight {
+    background-color: #fdcb6e;  
+    color: #2c3e50;
+}
+
+.obese {
+    background-color: #e74c3c;  
+    color: #2c3e50;
+}

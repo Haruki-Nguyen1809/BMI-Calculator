@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <div class="form-row">
+        <label for="height">Height:</label>
+        <select id="height-unit">
+            <option value="cm">cm</option>
+            <option value="ftin">ft/inch</option>
+        </select>
+        <input type="text" id="height" placeholder="cm">
+        <input type="text" id="inch" placeholder="inch">
+    </div>
+    <div class="form-row">
+        <label for="weight">Weight:</label>
+        <select id="weight-unit">
+            <option value="kg">kg</option>
+            <option value="pound">pound</option>
+        </select>
+        <input type="text" id="weight" placeholder="kg">
+    </div>
+    <button id="calculate">Calculate</button>
+    <p id="output"></p>
+    <script src="index.js"></script>
+</body>
+</html>
