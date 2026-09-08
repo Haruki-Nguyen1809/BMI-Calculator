@@ -32,7 +32,7 @@ calculateEl.addEventListener('click', function() {
 })
 
 function formula(value1, value2) {
-    //outputEl.classList.remove('underweight', 'normal', 'overweight', 'obese');
+    outputEl.classList.remove('underweight', 'normal', 'overweight', 'obese');
     let bmi = value1 / (Math.pow(value2/100, 2));
     let finalBmi = bmi.toFixed(2);
     if (bmi < 18.5) {
